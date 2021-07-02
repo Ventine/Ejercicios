@@ -1,0 +1,21 @@
+.fila1{
+    background-color: rgb(25, 32, 122);
+    color: rgb(219, 240, 228);
+    height: 50px;
+}
+
+.fila2{
+    background-color: rgb(174, 187, 126);
+    height: 60px;
+}
+
+.fila3{
+    background-color: rgb(219, 164, 164);
+    height: 60px;
+}
+
+.botton{
+    background-color: rgb(82, 185, 108);
+    color: rgb(219, 240, 228);
+    height: 80px;
+}

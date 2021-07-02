@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="esp">
+    <head>
+        <link rel="stylesheet" type="text/css" href="estilos.css">
+        <meta charset="utf-8">
+        <title> Nomina Empleado</title>  
+    </head>
+
+    <body >
+        <form action="Nomina.php" method="POST" align="center">   
+            <table border="0" width="90%" cellspacing="0px">
+                <tr class="fila1">
+                    <td> Cedula </td>
+                    <td> Dias </td>
+                    <td> Horas Diurnas</td>
+                    <td> Horas Nocturnas </td>
+                    <td> Horas Dominicales</td>
+                    <td> Bonificaciones </td>
+                    <td>Prestamos </td>
+                </tr>
+                <tr class="fila2">
+                    <td> 
+                        <select name="Cedulas">
+                            <option value="1">1.020.745.165</option>
+                            <option value="2">1.020.780.585</option>
+                            <option value="3">80.463.405</option>
+                            <option value="4">51.746.066</option>
+                            <option value="5">52.786.558</option>
+                            <option value="6">37.862.504</option>
+                            <option value="7">3.086.655</option>
+                            <option value="8">1.120.871.006</option>
+                            <option value="9">1.005.852.587</option>
+                            <option value="10">1.121.952.606</option>
+                            <option value="11">79.167.112</option>
+                        </select>
+                    </td>
+                    <td> 
+                        <input type="text" name="Dias" size="6" > 
+                    </td>
+                    <td> 
+                        <input type="text" name="Diurnas" size="6" > 
+                    </td>
+                    <td> 
+                        <input type="text" name="Nocturnas" size="6" > 
+                    </td>
+                    <td> 
+                        <input type="text" name="Dominicales" size="6" > 
+                    </td>
+                    <td> 
+                        <input type="text" name="Bonificaciones" size="8" > 
+                     </td>
+                    <td>
+                        <input type="text" name="Prestamos" size="8" > 
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="7">
+                        <input type="submit" value="Calcular Pago" class="botton">
+                    </td>
+                </tr>
+            </table>
+        </form> 
+    </body>
+
+
+</html>
