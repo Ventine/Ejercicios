@@ -123,7 +123,7 @@ $Prestamos = $_POST["Prestamos"];
                                 case '10': $basico=$Emp10 [4]; echo "$ ",$Emp10 [4]; break;   
                                 case '11': $basico=$Emp11 [4]; echo "$ ",$Emp11 [4]; break;                               
                                 }  
-                            ?>  
+                            ?>   
                     </td>
                     <td>
                     <?php echo "30"; ?> 
