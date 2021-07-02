@@ -126,11 +126,11 @@ $Prestamos = $_POST["Prestamos"];
                             ?>  
                     </td>
                     <td>
-                    <?php echo "30"; ?>
+                    <?php echo "30"; ?> 
                     </td>
                     <td>
                     <?php echo $DiasT; ?>
-                    </td>
+                    </td> 
 
             </tr>
         <br></br>
