@@ -47,17 +47,19 @@ header{
     font-size: 30px;
 }
 
-.cab-nav i{
-    width: 10px;
+.imahen{
+    width: 60px;
     float: left;
-    transform: translateX(250%);
     color: darkslategray;
+    opacity: 0.5;
 }
 
 .contenedor{
     position: absolute;
     top: 50%;
     left: 50%;
+    width: 520px;
+    height: 400px;
     transform:  translateX(-70%) translateY(-60%);
     border: solid;
     background-color: rgba(160, 143, 95, 0.5);
@@ -78,16 +80,14 @@ header{
 
 .foot{
     background-color: bisque;
-    margin-top: 75%;
+    margin-top: 65%;
     width: 100%;
     padding: 20px 10px;
     position: relative;
-    
 }
 
 .foot p{
     color: darkslategray;
     text-align: center;
-
 }
 

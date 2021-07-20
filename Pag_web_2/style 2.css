@@ -47,15 +47,12 @@ header{
     font-size: 30px;
 }
 
-.cab-nav i{
-    width: 10px;
+.imahen{
+    width: 60px;
     float: left;
-    transform: translateX(250%);
     color: darkslategray;
+    opacity: 0.5;
 }
-
-
-
 
 .fon_prin{
     width: 100%;
