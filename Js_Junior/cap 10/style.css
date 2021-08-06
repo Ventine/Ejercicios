@@ -1,0 +1,33 @@
+body{
+    background: rgb(97, 97, 64);
+    font-family: monospace;
+}
+
+.formulario{
+    margin: 50px 17%;
+    text-align: center;
+    background: #47b;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+h2{
+    margin: 0;
+    flex-grow: 1;
+    color: #ffe;
+}
+
+input{
+    width: 75px;
+    border: none;
+}
+
+input[type="button"]{
+    width: auto;
+    margin-left: 10px;
+    color: #47b;
+    background: #ffe;
+    letter-spacing: 1px;
+
+}

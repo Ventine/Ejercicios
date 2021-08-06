@@ -1,0 +1,31 @@
+body {
+    color: #ffe;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.materias {
+    width: 90%;
+    background: #42a;
+    padding: 3px;
+}
+
+.materia {
+    background: #002;
+    display: flex;
+}
+
+.materia div {
+    padding: 20px;
+}
+
+.materia .nota {
+    flex-basis: 20px;
+    background: #3a5;
+    font-weight: 400;
+
+}
+
+.materia .nombre {
+    flex-grow: 1;
+}
